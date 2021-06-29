@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>SignUp-Email Landing page</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' integrity='sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==' crossorigin='anonymous'/>
+</head>
+<body>
+     <header>
+          <div class="dark-header grid">
+               <div class="content">
+                    <div class="brand-row">
+                         <img src="./images/logo.png" alt="logo" class="logo">
+                         <h2 class="brand-name">ultimate web developer</h2>
+                    </div>
+                    <h1 class="title">exclusive course discounts</h1>
+                    <h3 class="sub-title">be the first to know when my <em>learn javascript today</em> course drops!</em></h3>
+               </div>
+          </div>
+          <div class="dark-header-divider"></div>
+          <div class="light-header grid">
+               <div class="content">
+                    <form action="/email" class="email-form" method="POST">
+                         <input type="email" name="email" placeholder="enter your email">
+                         <button type="submit">join now!</button>
+                    </form>
+               </div>
+          </div>
+          <div class="light-header-divider"></div>
+     </header>
+     <main>
+          <section class="grid grid-video">
+               <video poster="thumbnail.jpg" controls><source src="video.mp4" type="video/mp4"></video>
+               <div class="benefits-section">
+                    <div class="benefit"><img src="./images/email-icon.svg" alt="email icon">email updates</div>
+                    <div class="benefit"><img src="./images/money-icon.svg" alt="money icon">special discounts</div>
+                    <div class="benefit"><img src="./images/extra-content-icon.svg" alt="extra content icon">exclusive discounts</div>
+               </div>
+          </section>
+          <section class="grid grid-benefit-detail">
+               <div class="benefit-detail">
+                    <div class="benefit-detail-title">email updates</div>
+                    <div class="benefit-detail-text">All ultimate web development course, youtube, and patreon updates will be sent via email to members so you can stay up to date with everything ultimate ninja programming.</div>
+               </div>
+               <div class="benefit-detail">
+                    <div class="benefit-detail-title">special discounts</div>
+                    <div class="benefit-detail-text">All members of the ultimate ninja programming mailing list will receive exclusive discounts on<strong>all future</strong>ultimate web development courses.</div>
+               </div>
+               <div class="benefit-detail">
+                    <div class="benefit-detail-title">extra content</div>
+                    <div class="benefit-detail-text">email members will receive extra content such as course updates, discounts, and behind the scenes information on everything ultimate ninja programming.</div>
+               </div>
+          </section>
+     </main>
+</body>
+</html>
